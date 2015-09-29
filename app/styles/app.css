@@ -1,0 +1,27 @@
+.talk-card.mdl-card {
+  width: 320px;
+  height: 280px;
+  float: left;
+  margin: 10px;
+  line-height: 0;
+}
+.talk-card > .mdl-card__title {
+  color: #fff;
+  
+}
+.talk-card > .mdl-card__supporting-text {
+	background: #0C1124;
+	font-size: 1em;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.icon img{
+	margin-top: 15px;
+	margin-left: 2px;
+	width: 30px;
+}
+
+.talk-card a {
+	color: transparent;
+}
