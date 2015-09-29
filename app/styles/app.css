@@ -1,6 +1,6 @@
 .talk-card.mdl-card {
-  width: 320px;
-  height: 280px;
+  width: 300px;
+  height: 250px;
   float: left;
   margin: 10px;
   line-height: 0;
@@ -11,9 +11,14 @@
 }
 .talk-card > .mdl-card__supporting-text {
 	background: #0C1124;
-	font-size: 1em;
+	font-size: 12px;
 	color: #fff;
 	opacity: 0.9;
+}
+
+.icon {
+	background: #0C1124;
+	padding-bottom: 6px;
 }
 
 .icon img{

@@ -8,8 +8,9 @@
 				{{ talk.name }}<br />
 				{{ talk.date }}, {{ talk.conf }}<br />
 				{{ talk.local }}<br />
+			</div>
 
-				<div class="icon">
+			<div class="icon">
 					{{#if talk.slides}}
 						<a target="_blank" href="{{talk.slides}}">
 							<img src="/img/slides-icon.png" alt="Slides">
@@ -22,7 +23,6 @@
 						</a>
 					{{/if}}
 				</div>
-			</div>
 		</div>
 	{{/each}}
 </div>
